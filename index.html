@@ -1,0 +1,407 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Katsaus infograafien rakentamiseen – Paavo Toivanen, Solita Oy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Web-infograafit, D3.js:n ja SVG: esittelyä">
+  <meta name="author" content="Paavo Toivanen">
+  <link href="/css/main.css" rel="stylesheet">
+</head>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+	<h1><span class="strike">Katsaus</span> Vilkaisu web-infograafien rakentamiseen</h1>
+	<h3>Paavo Toivanen | Solita Tampere</h3>
+    <p class="filler"/>
+    <p><a href="http://www.nytimes.com/interactive/2013/10/09/us/yellen-fed-chart.html?_r=0"><img src="/img/nyt-infl.png"/></a></p>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <h1>Sisältö</h1>
+    <ul>
+        <li>webbitekniikkojen esittelyä <span class="bold">(SVG + D3.js)</span></li>
+        <li>katsaus maailmalle</li>
+        <li>rakentamisprosessit (kuka, miten?)</li>
+    </ul>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p><a href="http://dev.solita.fi/2014/09/01/infographs-with-d3js.html"><img src="/img/RF.png"/></a></p>
+    <p><a href="http://dev.solita.fi/2014/09/01/infographs-with-d3js.html">dev.solita.fi/2014/09/01/infographs-with-d3js.html</a></p>
+</div>
+
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <h1>Webbitekniikkojen esittelyä <span class="bold">(SVG + D3.js)</span></h1>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <h1><pan class="red">D3 kirjoittaa SVG:tä selaimeen</span></h1>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <p><img src="/img/svg-header.png" /></p>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <h2><a href="http://www.w3.org/standards/techs/svg#w3c_all">Täysin tuettu html5-standardi</a></h2>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p><a href="http://en.dev.inkscape.org/screenshots/?lang=en&version=0.45"><img src="/img/svg-ink-twinings.png"/></a></p>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p><a href="http://en.dev.inkscape.org/screenshots/gallery/inkscape-0.45-3D-rope.png"><img src="/img/svg-ink-robes.png"/></a></p>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p><img src="/img/svg-xml.png"/></p>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p>Ks.</p>
+    <p><a href="http://inkscape.org/en/"><img src="/img/inkscape-logo.png"/></a></p>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <h1>D3<span class="grey">.js</span></h1>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p><img src="/img/d3-logo.png"/></p>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <h1>= mobiilialustoilla(kin) pyörivä Javascript-kirjasto</h1>
+    <h2>+ käsittelee dataa riveittäin</h2>
+    <h2>+ auttaa asettelussa ja animoinnissa</h2>
+    <h2>- hieman pirstaleinen/pieni unohtamiskynnys</h2>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p><a href="http://bl.ocks.org/mbostock/4063269"><img src="/img/d3-bubbles.png"/></a></p>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p><a href="http://bl.ocks.org/mbostock/4063269"><img src="/img/d3-js-bubbles.png"/></a></p>
+</div>
+
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <h1>Maailmalta poimittua...</h1>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p><a href="http://www.globaleditorsnetwork.org/programmes/data-journalism-awards/?gclid=CLCijImelsECFWHncgodPxgAPw"><img src="/img/nyt-map-3d.png"/></a></p>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p><a href="http://www.nytimes.com/interactive/2013/02/20/movies/among-the-oscar-contenders-a-host-of-connections.html?_r=0"><img src="/img/nyt-oscar.png"/></a></p>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p><a href="http://www.atlas.cid.harvard.edu/aidxp/explore/static/profile/294/bipartite_rank/Issues/"><img src="/img/aid-dubai.png"/></a></p>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p><a href="http://bl.ocks.org/mbostock/4712128"><img src="/img/bostock-sun-view.png"/></a></p>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p><a href="http://visual.ly/dna-olympic-glory"><img src="/img/visually-olympic.png"/></a></p>
+</div>
+
+<!-- <div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p><a href="http://bl.ocks.org/mbostock/899711"><img src="/img/bostock-gmap.png"/></a></p>
+</div> -->
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p><a href="http://dexvis.com/vis/MotionChartDemo3.html"><img src="/img/dexvis-bdeaths.png"/></a></p>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <p><a href="http://www.hs.fi/ulkomaat/a1412649301335"><img src="/img/hs-ebola.png"/></a></p>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <p><a href="http://square.github.io/cubism/"><img src="/img/d3-cubism.png"/></a></p>
+</div>
+
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <h1>Prosessinäkökulma</h1>
+    <h1>⟳</h1>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <ul>
+        <li>DATAFLOW</li>
+        <li>TYÖNKULKU</li>
+    </ul>
+</div>
+
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <h1>DATA ➨ SELAIN ➨ MALLI ➨ NÄYTTÖ</h1>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <pre class="diagram">
+         DATA    ➨    SELAIN   ➨   MALLI   ➨   NÄYTTÖ
+    
+    (db ➨ R ➨ csv)
+                                (csv ➨ js)
+
+                                            (js ➨ svg/DOM)
+    </pre>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <h1>Web-infograafin luominen</h1>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <pre class="diagram">
+    DESIGN         ➥       SYNTEESI       ⟳
+    </pre>
+<!--
+    
+     feel (UX–DEV)
+    needs (BI–UX)
+   trends (DA–BI)
+    model (DEV–DA)
+-->
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <p><img src="/img/design-2.png"/></p>
+</div>
+
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <h1 class="red">Mikä on paras tapa esittää tämä tieto?</h1>
+    <p><img src="/img/idea.png"/></p>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <h1 class="red">Erilaisia näkökulmia...</h1>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <h1 class="red">Kokeillaan</h1>
+    <h2>max 1h sykli!</h2>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <pre class="diagram">
+TARPEET   ➥    IDEA    ➥    TOTEUTUS    ➥   ARVIOINTI
+
+         (visuaaliset ideat)
+         (trendit)
+         (vuorovaikutus, pelillisyys)
+         (raportointi/
+           selkiyttäminen)
+    </pre>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <p><img src="/img/workflow-2.png" /></p>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <h1><span class="red">SVG-suunnittelu</span></h1>
+    <ul>
+        <li>kannattaa harkita Inkscapea fotarin vaihtoehtona</li>
+    </ul>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p><img src="/img/ink-teddy-tt.png"/></p>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <ul>
+        <li>uudelleenkäytettävyys</li>
+        <li>selain ymmärtää</li>
+    </ul>
+        <p><img src="/img/hukka.png"/></p>
+    <ul>
+        <li>hukka vähenee?</li>
+    </ul>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <ul>
+        <li>(uudelleenkäyttö:  elementtien normalisointi yksikköneliöön)</li>
+    </ul>
+    <p><img src="/img/ink-unit-sq.png"/></p>
+</div>
+
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <p><img src="/img/esityskerros-3.png" /></p>
+</div>
+
+<!--
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <h1>DA ja D3.js?</h1>
+</div>
+
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <h1>MALLIT</h1>
+    <h2><a href="https://github.com/mbostock/d3/wiki/API-Reference#d3scale-scales">D3.js skaalat</a></h2>
+    <p><img src="/img/d3-doc-scales.png" /></p>
+    <h2>(<a href="https://github.com/mbostock/d3/wiki/API-Reference#d3layout-layouts">myös D3.js layout</a>)</h2>
+    <p><img src="/img/d3-doc-layout.png" /></p>
+</div>
+-->
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <p><img src="/img/idea-2.png"/></p>
+    <h1>Dataa ei tarvitse ylikäsitellä selainta varten</h1>
+    <ul>
+        <li>esim. log-skaala y-akselille luodaan D3-mallissa</li>
+        <li>kommunikaatio pro "valmiit" välituotteet</li>
+    </ul>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <ul>
+        <li>d3js.org-esimerkkejä lukemalla oppii</li>
+    </ul>
+</div>
+
+<div class="slide">
+    <p class="filler"/>
+    <p class="filler"/>
+    <p class="filler"/>
+    <p><img src="/img/waterfall-2.png"/></p>
+</div>
+
